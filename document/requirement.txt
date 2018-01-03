@@ -1,0 +1,9 @@
+For highly efficient development of application, the first thing is putting in order the requirement.
+
+Firstly, I will list some necessary requirements below:
+1. It can display a 360-degree panoramic video and image.
+2. There are 4 display modes: rectangle-panoramic, little planet, panoramic(centre of sphere), crystal ball(out of sphere), and it can be dragged use mouse except rectangle mode.
+3. All of player functions of a local video files player(play/pause, progress control, volume control, file list, full-screen and more).
+4. Maybe screen-capture is interesting.
+
+It's my think of this player.
