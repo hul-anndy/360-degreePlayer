@@ -3,6 +3,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_panoplayer.h"
+#include "shared/mediaPlayer/qtavplayer.h"
 
 class PanoPlayer : public QMainWindow
 {
@@ -14,6 +15,8 @@ public:
 
 private:
 	Ui::PanoPlayerClass ui;
+	QSharedPointer<QtAVPlayer> m_pPlayer;
+	QSharedPointer<QtAV::VideoOutput> m_pRender;
 };
 
 #endif // PANOPLAYER_H

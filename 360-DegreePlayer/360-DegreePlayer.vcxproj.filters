@@ -33,6 +33,12 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Source Files\shared">
+      <UniqueIdentifier>{ef183aed-836f-40c5-99d5-b67740474507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shared\mediaPlayer">
+      <UniqueIdentifier>{be70abd2-37d0-4885-8a45-61e64c2b8723}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -50,21 +56,45 @@
     <ClCompile Include="GeneratedFiles\qrc_panoplayer.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="shared\mediaPlayer\qtavplayer.cpp">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtavplayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtavplayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\mediaPlayer\qtavvideorenderer.cpp">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\mediaPlayer\qtavvideorendererprivate.cpp">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="panoplayer.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="panoplayer.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="panoplayer.qrc">
       <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shared\mediaPlayer\qtavplayer.h">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panoplayer.ui">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panoplayer.h">
+      <Filter>Source Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_panoplayer.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\mediaPlayer\qtavvideorenderer.h">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\mediaPlayer\qtavvideorendererprivate.h">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
