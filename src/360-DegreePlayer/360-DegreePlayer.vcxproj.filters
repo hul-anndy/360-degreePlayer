@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{0803afb5-aca1-48bd-9abc-3c7a8168de48}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{2f39cf57-300e-4fd4-847c-72f4cab9838c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\shared">
+      <UniqueIdentifier>{ef183aed-836f-40c5-99d5-b67740474507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shared\mediaPlayer">
+      <UniqueIdentifier>{be70abd2-37d0-4885-8a45-61e64c2b8723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{ff9b9216-a3aa-4667-a59d-05ceacbe2bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\playWidget">
+      <UniqueIdentifier>{4f210a07-f5cf-4607-b977-27e0fb3d6951}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panoplayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_panoplayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_panoplayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_panoplayer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\mediaPlayer\qtavplayer.cpp">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtavplayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtavplayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\mediaPlayer\qtavvideorenderer.cpp">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\mediaPlayer\qtavvideorendererprivate.cpp">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\playWidget\playwidget.cpp">
+      <Filter>Source Files\ui\playWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\playWidget\playcontrolwidget.cpp">
+      <Filter>Source Files\ui\playWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playcontrolwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playcontrolwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\mainpage.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="panoplayer.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shared\mediaPlayer\qtavplayer.h">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panoplayer.ui">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="panoplayer.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\playWidget\playwidget.ui">
+      <Filter>Source Files\ui\playWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\playWidget\playwidget.h">
+      <Filter>Source Files\ui\playWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\playWidget\playcontrolwidget.ui">
+      <Filter>Source Files\ui\playWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\playWidget\playcontrolwidget.h">
+      <Filter>Source Files\ui\playWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\mainpage.ui">
+      <Filter>Source Files\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\mainpage.h">
+      <Filter>Source Files\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shared\mediaPlayer\qtavvideorenderer.h">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_panoplayer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\mediaPlayer\qtavvideorendererprivate.h">
+      <Filter>Source Files\shared\mediaPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_playwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_playcontrolwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainpage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
